@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/11eb14a462.js" crossorigin="anonymous"></script>
+  
+   
+
+    <title>Split</title>
+</head>
+<body>
+      <nav class="navbar">
+          <div class="brand-title">Grad Split</div>
+          <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+           </a>
+        </div>
+           <div class="navbar-links">
+               <ul>
+                   <li><a href="#">Dobrodosli</a></li>
+                   <li><a href="#">Posjetite Split</a></li>
+                   <li><a href="#">Kontaktirajte Nas</a></li>
+               </ul>
+           </div>
+      </nav>
+
+      <div class="slider">
+          <div class="slide current">
+              <div class="content">
+                  <h1>Grad Split</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas provident nihil et illum. Magni.</p>
+              </div>
+          </div>
+          <div class="slide">
+            <div class="content">
+                <h1>Dioklecijanova Palaca</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas provident nihil et illum. Magni.</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="content">
+                <h1>Peristil</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas provident nihil et illum. Magni.</p>
+            </div>
+        </div>
+      
+      <div class="slide">
+        <div class="content">
+            <h1>Rimljani</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas provident nihil et illum. Magni.</p>
+        </div>
+    </div>
+  </div>
+  </div>
+  <div class="buttons">
+      <button id="prev"><i class="fas fa-arrow-left"></i></button>
+      <button id="next"><i class="fas fa-arrow-right"></i></button>
+
+  </div>
+
+  <div class="envelope">
+      <i class="fa fa-envelope-o" aria-hidden="true"></i>
+  </div>
+  <div class="overlay">
+      <div class="newsletter">
+      <div class="close"><i class="fa fa-times" aria-hidden="true"></i></div>
+      <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+    
+      <h1>Grad Split</h1>
+      <p>Ako hocete dobijat novosti molimo vas da se pretplatie na nasu stranicu</p>
+      <div class="subscribe-form">
+     <form>
+         <input type="email" name="" placeholder="Ostavite svoj email">
+         <input type="submit" name="" value="Pretplati se">
+     </form>
+      
+      </div>
+  </div>
+  </div>
+       
+
+  <div class="kontejner">
+      <div class="card">
+      <div class="face face1">
+        <div class="content">
+          <img src="images/splitjedan.jpg">
+        
+          
+      </div>
+      </div> 
+      <div class="face face2">
+        <div class="content">
+           
+    
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ratione, commodi libero nisi itaque corporis.</p>
+            <a href="#">Procitaj vise..</a>
+        </div>
+      </div>
+      </div> 
+
+      <div class="card">
+        <div class="face face1">
+          <div class="content">
+            <img src="images/splitdva.jpg">
+            
+            
+        </div>
+        </div> 
+        <div class="face face2">
+          <div class="content">
+             
+      
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ratione, commodi libero nisi itaque corporis.</p>
+              <a href="#">Procitaj vise..</a>
+          </div>
+        </div>
+        </div> 
+
+        <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <img src="images/splittri.jpg">
+                
+                
+            </div>
+            </div> 
+            <div class="face face2">
+              <div class="content">
+                 
+          
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ratione, commodi libero nisi itaque corporis.</p>
+                  <a href="#">Procitaj vise..</a>
+              </div>
+            </div>
+            </div> 
+
+            <div class="card">
+                  <div class="face face1">
+                  <div class="content">
+                    <img src="images/splitcetiri.jpg">
+                    
+                    
+                </div>
+                </div> 
+                <div class="face face2">
+                  <div class="content">
+                     
+              
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ratione, commodi libero nisi itaque corporis.</p>
+                      <a href="#">Procitaj vise..</a>
+                  </div>
+                </div>
+                </div> 
+
+
+  </div>
+ 
+
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $(".envelope").click(function(){
+            $(".overlay").toggleClass("active");
+        })
+        $(".close").click(function(){
+            $(".overlay").toggleClass("active");
+        })
+    });
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>
